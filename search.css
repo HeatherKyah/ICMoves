@@ -1,0 +1,189 @@
+
+body {
+    min-height: 100%;
+}
+.bg {
+    /* The image used */
+    background-image: url("images/blue-brick-wall-chair-1282315.jpg");
+
+
+    position: relative;
+    min-height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+.navbar-inner{ background: transparent}
+
+.navbar-brand{
+
+    font-family: "Times New Roman", serif;
+    font-size: 50px;
+    color: #004d40;
+
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+
+.fas{
+
+    color: #004d40;
+    font-size: 30px;
+}
+
+.nav-link{
+
+    font-size: 20px;
+    color: black;
+    margin-right: 100px;
+
+}
+
+.nav-link:hover{
+    color: #004d40;
+
+}
+.h1{
+
+    font-size: 200%;
+    font-family: "Times New Roman", serif;
+    color: #004d40}
+
+.main{
+
+    height: 100px;
+    width: 500px;
+
+    margin-top: 10% ;
+    margin-left: 30%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50% ;
+}
+
+.search{
+
+    margin-bottom: 5%;
+
+
+}
+
+.selector{
+
+
+    margin-top: 5%;
+
+}
+select{
+
+    height: 50px;
+    width: 100px;
+    border: #004d40 1px solid ;
+
+}
+
+select:active{
+
+
+    text-decoration: none;
+}
+
+form select{
+
+margin-right: 10%;
+}
+
+
+.form-control.mr-sm-2{
+
+    width: 400px;
+    height: 50px;
+    border: #004d40 5px solid ;
+    text-decoration: darkgrey;
+
+
+
+}
+
+
+.my-sm-0 {
+    font-weight: bold;
+    color: #004d40;
+    height: 48px;
+    width: 90px;
+    border-color: #004d40;
+}
+
+
+.my-sm-0:hover{
+
+    color: white;
+    background-color: #004d40;
+    border-color: #004d40;
+}
+
+#footer{
+
+    height: 250px;
+    background-color: #004d40;
+    color: #F8F9F9;
+    font-size: 15px;
+    margin-top: 0 ;
+}
+
+#footer .fab{
+
+    padding: 5%;
+}
+#footer p{
+
+    padding-top: 1%;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .form-control.mr-sm-2{
+
+        width: 200px;
+        height: 50px;
+        margin-left: -10%;
+    }
+
+    select{
+
+        height: 30px;
+        width: 60px;
+        border: #004d40 1px solid ;
+
+    }
+
+    form select{
+
+        margin: 0;
+    }
+
+    .bg {
+        min-height: 500px;
+        background-size: inherit;
+
+    }
+    
+
+   #footer{
+
+        height: 5%;
+    }
+
+   #footer p{
+       font-size: 10px;
+   }
+
+   .fab{
+
+       font-size: 10px;
+   }
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script type="text/javascript" src="Calc.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link href="Calc.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<body>
+<main>
+
+
+<nav class="navbar navbar-expand-lg">
+
+    <a class="navbar-brand" href="index.html">  IcMoves </a>
+    <button class="navbar-toggler" onclick="searchProps()" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+                <a class="nav-link" href="search.html">Buy</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="search.html">Rent</a>
+            </li>
+
+
+
+
+
+        </ul>
+    </div>
+</nav>
+
+    <div class="pic">
+
+
+<img src="images/adult-beautiful-girl-blur-254069%20(1).jpg">
+
+    <div class="motto">
+        <div class="motto-txt">
+        <h4>Mortgage Calculator</h4>
+        <h1> Look at how happy you could be!</h1>
+        </div>
+    </div>
+    </div>
+
+<div id="wrapper">
+
+<div id="wrap-txt">
+    <h2> Morgage Calculator</h2>
+<p> Lets see how much debt we can get for you.</p>
+</div>
+
+    <div id="container">
+    <div id="loan_src">
+
+        <form name="loan_form">
+            <div id="form-head">
+                Calculate Your mortgate
+            </div>
+
+            <table>
+                <tr>
+                    <td><i class="fas fa-calculator"></i> Loan amount:</td>
+                    <td><input type="text" name="loan_amt" title="loan_amt" size="10"></td>
+                </tr>
+
+                <tr>
+                    <td><i class="fas fa-calendar-alt"></i> Number of Months:</td>
+                    <td><input type="text" name="months" title="months" size="10"></td>
+                </tr>
+
+                <tr>
+                    <td><i class="fas fa-hand-holding-usd"></i> Interest Rate:</td>
+                    <td><input type="text" name="rate" title="rate" size="10"></td>
+                </tr>
+
+                <tr>
+                    <td><i class="fas fa-sort-amount-up"></i> Extra Monthly payments:</td>
+                    <td><input type="text" name="extra" title="extra" value="0" size="10"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="button"  id="hide" onclick="startOver()" value="Clear Form" ></td>
+                    <td><input type="button" id="show" onclick="validate()" value="Calculate"></td>
+                </tr>
+            </table>
+
+        </form>
+    </div> <!-- loan form -->
+
+    <div id="loan_info">
+
+
+    </div> <!-- loan info -->
+
+
+
+</div><!-- container -->
+
+
+</div> <!-- wrapepr-->
+
+    <div id="footer">
+
+        <i class="fab fa-facebook fa-lg"></i> <i class="fab fa-twitter fa-lg"></i>
+        <i class="fab fa-instagram fa-lg"></i> <i class="fab fa-linkedin fa-lg"></i>
+        <i class="fab fa-youtube fa-lg"></i>
+
+        <hr>
+        <p>  © 2017 ZPG Plc. All rights reserved. Sold house prices provided by Land Registry/Registers of Scotland. © Crown copyright 2017.
+        </p>
+    </div>
+    </div>
+
+</main>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

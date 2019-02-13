@@ -1,0 +1,226 @@
+html{
+
+
+    background-color: #EBEDEF;
+}
+
+
+.navbar{ box-shadow: 0 6px 6px -6px #999;
+margin-bottom: 3px;
+}
+.navbar-brand{
+
+    font-family: "Times New Roman", serif;
+    font-size: 40px;
+    color: #004d40;
+    text-shadow: 0.5px 0.5px black;
+}
+.navbar-brand:hover{ color: black}
+.navbar-toggler-icon{ color: black}
+
+.nav-link{
+
+    font-size: 20px;
+    color: black;
+    margin-right: 100px;
+
+}
+.nav-link:hover {
+    color: #004d40;
+}
+
+
+img{
+
+    height: auto;
+    width: 100%;
+
+
+    position: relative;
+
+
+ }
+
+.pic{ position: relative}
+.motto{
+
+    position: absolute;
+   background-color: darkblue;
+    color: white;
+
+    bottom: 20px;
+    left: 20px;
+
+    border-radius: 25px;
+    font-size: 9%;
+}
+.motto-txt{
+
+    padding: 3%;
+
+}
+
+#wrapper{
+
+    width: 100%;
+    height: 150%;
+    background-color: #EBEDEF;
+    padding-bottom: 2%;
+}
+#container{
+
+    width: 80%;
+    height: 60%;
+
+    margin-left: 10%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 6px 6px 6px -6px #999;
+}
+#wrap-txt {
+
+    color: #1A5276;
+    padding: 3%;
+}
+
+form{
+
+    padding: 5%;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+}
+#form-head{
+
+    background-color: #515A5A;
+    color: white;
+    margin-top: -5.5%;
+    margin-left: -5.5%;
+    margin-right: -5.5%;
+
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    padding: 1%;
+
+
+}
+form table{
+    margin-top: 5%}
+#hide{
+
+    background-color: #CB4335;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    margin: 15%;
+
+}
+#show   {
+    background-color: #2980B9;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    margin: 15%;
+    margin-left: 250%;
+}
+#show:hover{
+    background-color: #1A5276 ;
+}
+#hide:hover{
+    background-color: #7B241C;
+}
+form input{
+
+    border-radius: 15px;
+    background-color: #F8F9F9;
+    border: solid 1px #515A5A;
+    color: #515A5A;
+    padding: 1%;
+    margin-left: 50%;
+
+    font-size: 20px;
+}
+form  .fas{
+
+    color: #1A5276;
+    font-size: 20px;
+}
+
+
+
+#loan_info {
+
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#loan_info table {
+
+    margin-top: 5%;
+    align-content: center;
+    width: 100%;
+
+    border-radius: 25px;
+    background-color: white;
+}
+#loan_info td{
+
+    padding: 1%;
+    text-align: left;
+    font-size: 25px;
+
+}
+
+#footer{
+
+    height: 250px;
+    background-color: #004d40;
+    color: #F8F9F9;
+    font-size: 15px;
+}
+
+#footer .fab{
+
+    padding: 5%;
+}
+#footer p{
+
+    padding-top: 1%;
+
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+    html{
+        max-height: 300px;
+    }
+    .motto-txt {
+        padding: 2px;
+               font-size: 5px}
+    .motto-txt h1{font-size: 10Spx; }
+    .motto-txt h4 {font-size:   20px;}
+    .motto {
+        border-radius: 5px;
+        bottom: 5px;
+        left: 20px;
+    }
+
+    form input{
+        font-size: 12px }
+    form{
+        font-size: 12px}
+    #container{
+        border-radius: 5px}
+    #form-head {
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    #form .fas{
+        font-size: 5px}
+    #show{font-size: 10px;
+          margin-left: 50%;}
+    #hide{
+        font-size: 10px}
+    #loan_info td{
+        font-size: 12px}
+}
